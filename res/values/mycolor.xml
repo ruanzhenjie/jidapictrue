@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mycolor0">#9fE6FBC1</color>
+    <color name="mycolorclick">#9fC2EFFA</color>
+    <color name="myclickcolor">#00FF00</color>
+    <color name="myunclickcolor">#FFFFFF</color>
+    <color name="mytitlecolor">#FFFFFF</color>
+    <color name="mybackcolor">#FFFFFF</color>
+    <color name="mybackcolor2">#FFFAFA</color>
+    <color name="mymainbtnbackcolor">#b0ffffff</color>
+    
+</resources>

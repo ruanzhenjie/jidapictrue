@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mybackcolor" 
+    >
+    <include layout="@layout/back_title"/>
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/feedback_edittxt"
+        android:gravity="top"
+        android:hint="感谢您，给予我们宝贵的意见。"
+        android:maxLength="450"
+        android:background="@drawable/bg_edittext"
+        />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提交"
+            android:id="@+id/feedback_ok"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/title_feedback"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/title_feedback"
+        android:showAsAction="never|withText"
+        />
+    <item 
+        android:id="@+id/title_connect"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/title_connect"
+        android:showAsAction="never|withText"
+        />
+    <item 
+        android:id="@+id/title_quit"
+        android:icon="@drawable/iconfont_shezhi"
+        android:title="@string/title_quit"
+        android:showAsAction="never|withText"
+        />
+    
+</menu>

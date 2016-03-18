@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trytwofragment.photoMainActivity"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:id="@+id/fircontainer"
+        android:orientation="vertical"
+        ></LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/seccontainer"
+        android:orientation="vertical"
+        ></LinearLayout>
+    
+
+
+</LinearLayout>
